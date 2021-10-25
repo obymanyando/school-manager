@@ -1,0 +1,130 @@
+/*===========================
+    35.Sidebar css 
+===========================*/
+
+/* .sidebar {} */
+
+.sidebar_search {
+    position: relative;
+}
+
+.sidebar_search input {
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    background-color: #ebebeb;
+    color: #797e82;
+    border: 0;
+}
+
+.sidebar_search button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    background-color: #fcc741;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidebar_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #002639;
+}
+
+.sidebar_tag,
+.sidebar_list,
+.sidebar_post {
+    border: 1px solid #ebebeb;
+    padding: 30px 35px 35px;
+}
+
+/* .single_sidebar_post {} */
+
+.single_sidebar_post .post_image img {
+    width: 60px;
+    height: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.single_sidebar_post .post_content {
+    padding-left: 15px;
+}
+
+.single_sidebar_post .post_content .title a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #002639;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.single_sidebar_post .post_content .title a:hover {
+    color: #fcc741;
+}
+
+.single_sidebar_post .post_content .date {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.archives_list {
+    margin-top: 20px;
+}
+
+.archives_list li {
+    margin-top: 10px;
+}
+
+.archives_list li a {
+    display: block;
+    color: #484848;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.archives_list li a i {
+    color: #fcc741;
+    margin-right: 8px;
+}
+
+.archives_list li a span {
+    float: right;
+}
+
+.archives_tag {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 20px;
+}
+
+.archives_tag li {
+    margin: 0 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.archives_tag li button {
+    font-size: 14px;
+    padding: 0 13px;
+    height: 30px;
+    line-height: 28px;
+    border: 1px solid #ebebeb;
+    color: #484848;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.archives_tag li button:hover {
+    color: #fff;
+    background-color: #fcc741;
+    border-color: #fcc741;
+    cursor: pointer;
+}

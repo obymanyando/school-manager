@@ -1,0 +1,553 @@
+/*===========================
+   38.Courses Details css 
+===========================*/
+
+/* .courses_details_area {}
+
+.courses_details_content {} */
+
+.courses_details_title {
+  font-size: 24px;
+  color: #002639;
+  font-weight: 600;
+}
+
+/* .single_courses_details {} */
+
+.single_courses_details p {
+  margin-top: 15px;
+}
+
+.single_courses_details ul {
+  padding-top: 10px;
+}
+
+.single_courses_details ul li {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #484848;
+}
+
+.single_courses_details ul li i {
+  color: #fcc741;
+  margin-right: 5px;
+}
+
+.courses_top_bar {
+  background-color: #f3f8fc;
+  padding: 0 20px 15px;
+  margin: 8px;
+}
+
+.courses_top_bar .courses_title {
+  padding-top: 15px;
+}
+
+.courses_top_bar .courses_meta .meta {
+  padding-top: 15px;
+}
+
+.courses_top_bar .courses_meta .meta li {
+  display: inline-block;
+}
+
+.courses_top_bar .courses_meta .meta li + li {
+  margin-left: 15px;
+}
+
+.courses_top_bar .courses_meta .meta li i {
+  color: #fcc741;
+}
+
+.courses_curriculum {
+  border: 1px solid #ebebeb;
+}
+
+.courses_curriculum .accordion {
+  padding: 0;
+  border: 0;
+}
+
+.courses_curriculum .accordion .card {
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.courses_curriculum .accordion .card .card-header {
+  padding: 15px 30px;
+  border-radius: 0;
+  background: none;
+  border: 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.courses_curriculum .accordion .card:first-child .card-header {
+  border-top: 0;
+}
+
+.courses_curriculum .accordion .card .card-header a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #002639;
+  position: relative;
+  padding-left: 25px;
+}
+
+.courses_curriculum .accordion .card .card-header a::before {
+  position: absolute;
+  content: '\f068';
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #fcc741;
+  left: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.courses_curriculum .accordion .card .card-header a.collapsed::before {
+  content: '\f067';
+}
+
+.courses_curriculum .accordion .card .card-body {
+  padding: 25px 30px 20px;
+}
+
+/* .courses_curriculum .accordion .card .card-body .curriculum_content {} */
+
+.courses_curriculum .accordion .card .card-body .curriculum_content .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #002639;
+}
+
+.courses_curriculum .accordion .card .card-body .curriculum_content p {
+  margin-top: 15px;
+}
+
+.courses_curriculum .curriculum_list {
+  margin-top: 20px;
+}
+
+.courses_curriculum .curriculum_list span {
+  font-size: 16px;
+  color: #002639;
+  font-weight: 400;
+}
+
+.courses_curriculum .curriculum_list span i {
+  color: #fcc741;
+  margin-right: 5px;
+}
+
+.courses_curriculum .curriculum_list ul {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.courses_curriculum .curriculum_list ul li {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.courses_curriculum .curriculum_list ul li:last-child {
+  border-bottom: 0;
+}
+
+.courses_curriculum .curriculum_list ul li a {
+  font-size: 16px;
+  color: #484848;
+  font-weight: 400;
+  display: block;
+  padding: 8px 0;
+}
+
+.courses_curriculum .curriculum_list ul li a i {
+  color: #40d0af;
+  margin-right: 5px;
+}
+
+.courses_about {
+  border: 1px solid #ebebeb;
+}
+
+.courses_about_wrapper {
+  padding: 30px;
+  padding-top: 0;
+}
+
+.single_teachers {
+  margin-top: 25px;
+  width: 50%;
+}
+
+.single_teachers .author_image img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.single_teachers .author_content {
+  padding-left: 15px;
+}
+
+.single_teachers .author_content .author_name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.single_teachers .author_content p {
+  margin-top: 3px;
+}
+
+.single_teachers .author_content .social {
+  margin-top: 10px;
+}
+
+.single_teachers .author_content .social li {
+  display: inline-block;
+}
+
+.single_teachers .author_content .social li + li {
+  margin-left: 8px;
+}
+
+.single_teachers .author_content .social li a {
+  font-size: 16px;
+  color: rgba(72, 72, 72, 0.5);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.single_teachers .author_content .social li a:hover {
+  color: #fcc741;
+}
+
+.courses_reviews {
+  border: 1px solid #ebebeb;
+}
+
+.courses_reviews_wrapper {
+  padding: 30px 0;
+}
+
+.average_rating {
+  width: 250px;
+  border-right: 1px solid #ebebeb;
+  padding: 30px 0;
+}
+
+.average_rating .rating_value {
+  font-size: 48px;
+  color: #fccb54;
+  line-height: 50px;
+}
+
+/* .average_rating .review_star {} */
+
+.average_rating .review_star li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.average_rating .review_star li span {
+  color: #fccb54;
+  font-size: 18px;
+}
+
+.average_rating p {
+  margin-top: 5px;
+}
+
+.detailed_rating {
+  width: 66%;
+}
+
+.detailed_rating .single_star {
+  margin-top: 8px;
+}
+
+.detailed_rating .single_star:first-child {
+  margin-top: 0;
+}
+
+.detailed_rating .single_star .key {
+  display: inline-block;
+  font-size: 16px;
+  color: #484848;
+  padding-right: 15px;
+}
+
+.detailed_rating .single_star .bar {
+  width: 50%;
+  background-color: #ebebeb;
+  height: 10px;
+  display: inline-block;
+}
+
+.detailed_rating .single_star .bar .full_bar {
+  background-color: #fccb54;
+  height: 100%;
+}
+
+.detailed_rating .single_star .value {
+  display: inline-block;
+  font-size: 16px;
+  color: #484848;
+  padding-left: 15px;
+  width: 20px;
+}
+
+.courses_reviews_comment {
+  padding: 0 30px 30px;
+}
+
+.courses_reviews_comment .comment_author img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.courses_reviews_comment .comment_content {
+  padding-left: 15px;
+}
+
+.courses_reviews_comment .comment_content .author_name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.courses_reviews_comment .comment_content .star {
+  margin-top: 4px;
+}
+
+.courses_reviews_comment .comment_content .star li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.courses_reviews_comment .comment_content .star li + li {
+  margin-left: 5px;
+}
+
+.courses_reviews_comment .comment_content .star li span {
+  color: #8de2ce;
+}
+
+.courses_reviews_comment .comment_content .star li i {
+  color: #fccb54;
+}
+
+.courses_reviews_comment .comment_content p {
+  margin-top: 12px;
+}
+
+/* .courses_details_sidebar {
+  margin-top: -410px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  z-index: 9;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+} */
+
+.courses_details_sidebar .courses_sidebar_image {
+  position: relative;
+}
+
+.courses_details_sidebar .courses_sidebar_image img {
+  width: 100%;
+}
+
+.courses_details_sidebar .courses_sidebar_image .price {
+  width: 90px;
+  height: 90px;
+  display: table;
+  text-align: center;
+  background: #de322e;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: -45px;
+}
+
+.courses_details_sidebar .courses_sidebar_image .price .price_wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.courses_details_sidebar .courses_sidebar_image .price .price_wrapper p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.courses_details_sidebar .courses_sidebar_image .price .price_wrapper span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 18px;
+}
+
+.courses_details_sidebar .courses_sidebar_image .courses_btn {
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.courses_details_sidebar .courses_sidebar_image .courses_btn .main-btn {
+  width: 100%;
+}
+
+.courses_details_sidebar .courses_sidebar_title {
+  background-color: #40d0af;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.courses_details_sidebar .courses_sidebar_title::before {
+  width: 20px;
+  height: 20px;
+  background-color: #40d0af;
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.courses_details_sidebar .courses_sidebar_title .title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.courses_details_sidebar .courses_sidebar_list {
+  background-color: #f3f8fc;
+  padding: 30px;
+}
+
+/* .courses_details_sidebar .courses_sidebar_list .list {} */
+
+.courses_details_sidebar .courses_sidebar_list .list li {
+  font-size: 16px;
+  color: #002639;
+  border-bottom: 1px solid rgba(72, 72, 72, 0.1);
+  padding: 15px 0;
+}
+
+.courses_details_sidebar .courses_sidebar_list .list li:last-child {
+  border-bottom: 0;
+}
+
+.courses_details_sidebar .courses_sidebar_list .list li i {
+  color: #fcc741;
+  width: 23px;
+}
+
+.courses_details_sidebar .courses_sidebar_list .list li span {
+  float: right;
+}
+
+/* .courses_details_sidebar .courses_sidebar_list {} */
+
+.courses_details_sidebar .courses_sidebar_list .social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li:nth-of-type(1) a {
+  background-color: #3b5999;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li:nth-of-type(2) a {
+  background-color: #55acee;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li:nth-of-type(3) a {
+  background-color: #0077b5;
+}
+
+.courses_details_sidebar .courses_sidebar_list .social li:nth-of-type(4) a {
+  background-color: #e4405f;
+}
+
+/* npm package: react accessible accordion */
+.accordion__button {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #002639;
+  position: relative;
+
+}
+
+.accordion__button:before {
+  display: inline-block;
+  content: '\f067';
+  margin-right: 12px;
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #fcc741;
+  left: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  transform: rotate(-0deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+  content: '\f068';
+  transform: rotate(-0deg);
+}
+
+.accordion__panel {
+  padding: 20px;
+  animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* test */
+#accordion__heading-1,
+#accordion__heading-3,
+#accordion__heading-5 {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  color: #002639;
+}

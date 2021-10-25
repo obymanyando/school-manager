@@ -1,0 +1,79 @@
+
+.blog_details_comment {
+    border-top: 1px solid #ebebeb;
+    padding-top: 45px;
+}
+
+.blog_details_comment .blog_comment_items {
+    padding-top: 15px;
+}
+
+.blog_details_comment .blog_details_comment_title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment {
+    margin-top: 30px;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_author img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content {
+    margin-left: 20px;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .author_name {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .commtent_meta li {
+    display: inline-block;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .commtent_meta li a {
+    font-size: 14px;
+    color: #616161;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .commtent_meta li a i {
+    margin-right: 5px;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .commtent_meta li a:hover {
+    color: #fcc741;
+}
+
+.blog_details_comment .blog_comment_items ul li .single_comment .comment_content .commtent_meta li + li {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.blog_details_comment .blog_comment_items .reply_comment {
+    padding-left: 90px;
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .blog_details_comment .blog_comment_items ul li .single_comment .comment_content {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .blog_details_comment .blog_comment_items .reply_comment {
+        padding-left: 0;
+    }
+}

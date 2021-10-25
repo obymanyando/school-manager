@@ -1,0 +1,132 @@
+
+.counter_area {}
+
+.single_counter {
+    position: relative;
+}
+
+.single_counter .counter_icon {
+    width: 100px;
+    height: 100px;
+    display: table;
+    border: 1px dashed;
+    border-radius: 5px;
+}
+
+.single_counter .counter_icon .icon_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single_counter .counter_icon .icon_wrapper img {
+    width: 55px;
+}
+
+.single_counter .counter_content {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 85px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.single_counter .counter_content .cont {
+    font-size: 30px;
+    font-weight: 700;
+    color: #203151;
+}
+
+.single_counter .counter_content p {}
+
+.counter_wrapper .counter_col:nth-child(4n+1) .single_counter .counter_icon {
+    border-color: #40d0af;
+}
+
+.counter_wrapper .counter_col:nth-child(4n+2) .single_counter .counter_icon {
+    border-color: #fcc741;
+}
+
+.counter_wrapper .counter_col:nth-child(4n+3) .single_counter .counter_icon {
+    border-color: #de322e;
+}
+
+.counter_wrapper .counter_col:nth-child(4n+4) .single_counter .counter_icon {
+    border-color: #3d84c8;
+}
+.counter_area {
+}
+
+.single_counter {
+  position: relative;
+}
+
+.single_counter .counter_icon {
+  width: 100px;
+  height: 100px;
+  display: table;
+  border: 1px dashed;
+  border-radius: 5px;
+}
+
+.single_counter .counter_icon .icon_wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single_counter .counter_icon .icon_wrapper img {
+  width: 55px;
+}
+
+.single_counter .counter_content {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 85px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.single_counter .counter_content .cont {
+  font-size: 30px;
+  font-weight: 700;
+  color: #203151;
+}
+
+.single_counter .counter_content p {
+}
+
+.counter_wrapper .counter_col:nth-child(4n + 1) .single_counter .counter_icon {
+  border-color: #40d0af;
+}
+
+.counter_wrapper .counter_col:nth-child(4n + 2) .single_counter .counter_icon {
+  border-color: #fcc741;
+}
+
+.counter_wrapper .counter_col:nth-child(4n + 3) .single_counter .counter_icon {
+  border-color: #de322e;
+}
+
+.counter_wrapper .counter_col:nth-child(4n + 4) .single_counter .counter_icon {
+  border-color: #3d84c8;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .single_counter .counter_icon {
+    width: 90px;
+    height: 84px;
+    display: table;
+    border: 1px dashed;
+    border-radius: 5px;
+}
+
+  .single_counter .counter_content .cont {
+    font-size: 15px;
+    font-weight: 700;
+    color: #203151;
+}
+}

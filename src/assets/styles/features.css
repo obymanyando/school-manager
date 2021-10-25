@@ -1,0 +1,82 @@
+/**===========================*/
+/*04.Features css*/
+/*===========================*!*/
+
+
+.features_area {}
+
+.features_wrapper {
+	position: relative;
+	z-index: 5;
+	margin-top: -122px;
+}
+
+.single_features {
+	padding: 40px 30px;
+	z-index: 5;
+	position: relative;
+	overflow: hidden;
+}
+
+.single_features::before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.1;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.single_features:hover::before {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.single_features .features_icon {}
+
+.single_features .features_content {
+	margin-top: 25px;
+}
+
+.single_features .features_content .features_title {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.single_features .features_content p {
+	margin-top: 15px;
+	color: #fff;
+}
+
+.features_wrapper .row .features_col:nth-child(3n+1) .single_features {
+	background-color: #da2d2b;
+}
+
+.features_wrapper .row .features_col:nth-child(3n+1) .single_features::before {
+	background-image: url(../images/features-1.png);
+}
+
+.features_wrapper .row .features_col:nth-child(3n+2) .single_features {
+	background-color: #fcc741;
+}
+
+.features_wrapper .row .features_col:nth-child(3n+2) .single_features::before {
+	background-image: url(../images/features-2.png);
+}
+
+.features_wrapper .row .features_col:nth-child(3n+3) .single_features {
+	background-color: #48cfaf;
+}
+
+.features_wrapper .row .features_col:nth-child(3n+3) .single_features::before {
+	background-image: url(../images/features-3.png);
+}
+
+

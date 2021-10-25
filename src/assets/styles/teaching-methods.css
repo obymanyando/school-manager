@@ -1,0 +1,63 @@
+
+/*===========================
+    09.Why Choose Us css
+===========================*/
+
+
+.why_choose_area {
+    position: relative;
+}
+
+.why_choose_image {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    display: table;
+}
+
+.why_choose_image .image {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.why_choose_content {}
+
+.single_choose {}
+
+.single_choose .choose_icon {}
+
+.single_choose .choose_content {
+    margin-top: 15px;
+}
+
+.single_choose .choose_content .title a {
+    color: #002639;
+    font-weight: 600;
+    font-size: 18px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.single_choose .choose_content p {
+    margin-top: 15px;
+}
+
+.why_choose_content .row .choose_col:nth-child(4n+1) .single_choose .choose_content .title a:hover {
+    color: #48cfaf;
+}
+
+.why_choose_content .row .choose_col:nth-child(4n+2) .single_choose .choose_content .title a:hover {
+    color: #de322e;
+}
+
+.why_choose_content .row .choose_col:nth-child(4n+3) .single_choose .choose_content .title a:hover {
+    color: #3d84c8;
+}
+
+.why_choose_content .row .choose_col:nth-child(4n+4) .single_choose .choose_content .title a:hover {
+    color: #fcc741;
+}
+
+

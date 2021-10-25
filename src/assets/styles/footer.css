@@ -1,0 +1,136 @@
+
+/*===========================
+    15.Footer css
+===========================*/
+
+.footer_area {}
+
+.footer_widget {
+    position: relative;
+}
+
+.footer_widget::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 41, 69, 0.95);
+}
+
+.footer_widget .footer_logo {}
+
+.footer_widget .footer_logo .footer_info {
+    margin-top: 35px;
+}
+
+.footer_widget .footer_logo .footer_info li {
+    margin-top: 10px;
+}
+
+.footer_widget .footer_logo .footer_info li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.footer_widget .footer_logo .footer_info li a {
+    font-size: 16px;
+    color: #bababa;
+}
+
+.footer_widget .footer_logo .footer_social {
+    margin-top: 20px;
+}
+
+.footer_widget .footer_logo .footer_social li {
+    display: inline-block;
+}
+
+.footer_widget .footer_logo .footer_social li + li {
+    margin-left: 10px;
+}
+
+.footer_widget .footer_logo .footer_social li a {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    color: #bababa;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.footer_widget .footer_logo .footer_social li a:hover {
+    background-color: #f8c440;
+    border-color: #f8c440;
+    color: #fff;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer_about {}
+
+.footer_about p {
+    color: #bababa;
+    margin-top: 35px;
+}
+
+
+.footer_link {}
+
+.footer_link .link {
+    margin-top: 25px;
+}
+
+.footer_link .link li {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.10);
+    line-height: 40px;
+}
+
+.footer_link .link li:last-child {
+    border-bottom: 0;
+}
+
+.footer_link .link li {
+    color: #bababa;
+    font-size: 16px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.footer_link .link li:hover {
+    color: #f8c440;
+}
+
+.footer_link .link li a{
+    color: #bababa;
+    font-size: 16px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.footer_link .link li a:hover {
+    color: #f8c440;
+}
+
+.footer_copyright {
+    background-color: #1b2945;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.copyright {
+    padding-top: 15px;
+}
+
+.copyright p {
+    color: #bababa;
+}
+

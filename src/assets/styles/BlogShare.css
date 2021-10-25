@@ -1,0 +1,22 @@
+.blog_details_share {
+    margin-top: 35px;
+    padding-bottom: 45px;
+}
+
+.blog_details_share span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #002639;
+}
+
+.blog_details_share .social li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.blog_details_share .social li a {
+    font-size: 18px;
+    color: #9d9d9d;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
